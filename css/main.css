@@ -1,14 +1,38 @@
-.list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
 .pageHeader {
 display: flex;
 justify-content: center;
+font-size: 3rem;
+font-weight: bold;
+margin: 30px 30px;
+background-color: tan;
+border: outset tan;
 }
 
-.shop {
-   flex-basis: 33%;
+.card {
+   margin: 20px 30px;
+   padding: 30px 30px;
+   text-align: center;
+   background-color:tan;
+
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+}
+
+a {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: saddlebrown;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.card-text > h5 {
+    font-size: 5px;
 }
